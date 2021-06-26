@@ -1,8 +1,4 @@
-<Project>
-  <PropertyGroup>
-    <MSBuildEnableWorkloadResolver>false</MSBuildEnableWorkloadResolver>
-  </PropertyGroup>
-  <Import Project="Sdk.props" Sdk="Microsoft.NET.Sdk" />
+<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <Description>A .NET library for publishing metrics to StatsD.</Description>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
@@ -25,5 +21,4 @@
     <AdditionalFiles Include="PublicAPI.Shipped.txt" />
     <AdditionalFiles Include="PublicAPI.Unshipped.txt" />
   </ItemGroup>
-  <Import Project="Sdk.targets" Sdk="Microsoft.NET.Sdk" />
 </Project>
